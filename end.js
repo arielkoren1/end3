@@ -3,30 +3,30 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"אנימציה סופית_atlas_1", frames: [[0,0,1511,970],[0,972,1511,970]]},
-		{name:"אנימציה סופית_atlas_2", frames: [[1504,585,374,130],[1504,717,374,130],[1504,849,374,130],[1504,981,374,130],[1504,1113,374,130],[0,1880,374,130],[0,0,374,186],[0,188,374,186],[0,376,374,186],[0,564,374,186],[0,752,374,186],[0,940,374,186],[0,1128,374,186],[0,1316,374,186],[0,1504,374,186],[0,1692,374,186],[376,0,374,186],[376,188,374,186],[376,376,374,186],[376,564,374,186],[376,752,374,186],[376,940,374,186],[376,1128,374,186],[376,1316,374,186],[376,1504,374,186],[376,1692,374,186],[752,0,374,186],[752,188,374,186],[752,376,374,186],[752,564,374,186],[752,752,374,186],[752,940,374,186],[752,1128,374,186],[752,1316,374,186],[752,1504,374,186],[752,1692,374,186],[1128,0,374,186],[1128,188,374,186],[1128,376,374,186],[1128,564,374,186],[1128,752,374,186],[1128,940,374,186],[1128,1128,374,186],[376,1880,374,130],[752,1880,374,130],[1128,1910,374,130],[1128,1316,315,202],[1128,1520,315,193],[1445,1712,315,193],[1445,1316,320,196],[1445,1514,320,196],[1128,1715,315,193],[1504,0,315,193],[1504,195,315,193],[1504,390,315,193],[1767,1482,67,197],[1762,1712,229,254],[1767,1245,193,235]]},
-		{name:"אנימציה סופית_atlas_3", frames: [[0,0,1190,1195]]},
-		{name:"אנימציה סופית_atlas_4", frames: [[0,0,1172,1176]]},
-		{name:"אנימציה סופית_atlas_5", frames: [[0,0,1172,1176]]},
-		{name:"אנימציה סופית_atlas_6", frames: [[0,0,1172,1176]]},
-		{name:"אנימציה סופית_atlas_7", frames: [[0,0,1172,1176]]},
-		{name:"אנימציה סופית_atlas_8", frames: [[0,0,1172,1176]]},
-		{name:"אנימציה סופית_atlas_9", frames: [[0,0,1172,1176]]},
-		{name:"אנימציה סופית_atlas_10", frames: [[0,1178,1601,830],[0,0,1172,1176]]},
-		{name:"אנימציה סופית_atlas_11", frames: [[0,855,972,830],[0,0,973,853],[975,839,968,834],[975,0,965,837]]},
-		{name:"אנימציה סופית_atlas_12", frames: [[0,811,973,778],[972,0,973,778],[975,780,973,778],[0,0,970,809]]},
-		{name:"אנימציה סופית_atlas_13", frames: [[0,0,973,778],[975,0,973,778],[0,780,973,778],[975,780,973,778]]},
-		{name:"אנימציה סופית_atlas_14", frames: [[0,0,973,778],[975,0,973,778],[0,780,973,778],[975,780,973,778]]},
-		{name:"אנימציה סופית_atlas_15", frames: [[0,0,973,778],[975,0,973,778],[0,780,973,778],[975,780,973,778]]},
-		{name:"אנימציה סופית_atlas_16", frames: [[0,0,973,778],[0,780,1616,301],[0,1083,1616,301],[0,1386,1616,301],[0,1689,1616,301]]},
-		{name:"אנימציה סופית_atlas_17", frames: [[0,0,1616,301],[0,303,1616,301],[0,606,1616,301],[0,909,1616,301],[0,1212,1616,301],[0,1515,1616,301]]},
-		{name:"אנימציה סופית_atlas_18", frames: [[0,0,1616,301],[0,303,1616,301],[0,606,1616,301],[0,909,1616,301],[0,1212,1616,301],[0,1515,1616,301]]},
-		{name:"אנימציה סופית_atlas_19", frames: [[0,0,1616,301],[0,303,1616,301],[0,606,1616,301],[0,909,1616,301],[0,1212,1616,301],[0,1515,1616,301]]},
-		{name:"אנימציה סופית_atlas_20", frames: [[0,0,1616,301],[0,303,1616,301],[0,606,1616,301],[0,909,1616,301],[0,1212,1616,301],[0,1515,1616,301]]},
-		{name:"אנימציה סופית_atlas_21", frames: [[0,0,1616,301],[0,303,1616,301],[0,606,1616,301],[0,909,1616,301],[0,1212,1616,301],[0,1515,1616,301]]},
-		{name:"אנימציה סופית_atlas_22", frames: [[0,1818,411,186],[1627,1747,375,190],[1522,303,375,190],[1618,0,375,190],[1522,495,375,190],[1522,687,375,190],[1522,879,375,190],[1522,1071,375,190],[1522,1263,375,190],[1663,1455,375,190],[1250,1747,375,196],[0,0,1616,301],[0,303,759,626],[761,303,759,626],[0,931,759,626],[761,931,759,626],[0,1559,597,257],[1250,1559,411,186],[981,1559,267,358],[599,1559,380,380]]},
-		{name:"אנימציה סופית_atlas_23", frames: [[1508,192,374,186],[1508,380,374,186],[1508,568,374,186],[1508,756,374,186],[1508,944,374,186],[1508,1132,374,186],[1508,1320,374,186],[1508,1508,374,186],[1508,1696,374,186],[0,0,375,190],[0,192,375,190],[0,384,375,190],[0,576,375,190],[0,768,375,190],[0,960,375,190],[0,1152,375,190],[0,1344,375,190],[0,1536,375,190],[0,1728,375,190],[377,0,375,190],[377,192,375,190],[377,384,375,190],[377,576,375,190],[377,768,375,190],[377,960,375,190],[377,1152,375,190],[377,1344,375,190],[377,1536,375,190],[377,1728,375,190],[754,0,375,190],[754,192,375,190],[754,384,375,190],[754,576,375,190],[754,768,375,190],[754,960,375,190],[754,1152,375,190],[754,1344,375,190],[754,1536,375,190],[754,1728,375,190],[1131,0,375,190],[1131,192,375,190],[1131,384,375,190],[1131,576,375,190],[1131,768,375,190],[1131,960,375,190],[1131,1152,375,190],[1131,1344,375,190],[1131,1536,375,190],[1131,1728,375,190],[1508,0,375,190]]},
-		{name:"אנימציה סופית_atlas_24", frames: [[0,0,1190,1195]]}
+		{name:"end_atlas_1", frames: [[0,0,1511,970],[0,972,1511,970]]},
+		{name:"end_atlas_2", frames: [[0,0,1190,1195]]},
+		{name:"end_atlas_3", frames: [[0,0,1190,1195]]},
+		{name:"end_atlas_4", frames: [[0,0,1172,1176]]},
+		{name:"end_atlas_5", frames: [[0,0,1172,1176]]},
+		{name:"end_atlas_6", frames: [[0,0,1172,1176]]},
+		{name:"end_atlas_7", frames: [[0,0,1172,1176]]},
+		{name:"end_atlas_8", frames: [[0,0,1172,1176]]},
+		{name:"end_atlas_9", frames: [[0,0,1172,1176]]},
+		{name:"end_atlas_10", frames: [[0,1178,1601,830],[0,0,1172,1176]]},
+		{name:"end_atlas_11", frames: [[0,855,972,830],[0,0,973,853],[975,839,968,834],[975,0,965,837]]},
+		{name:"end_atlas_12", frames: [[0,811,973,778],[972,0,973,778],[975,780,973,778],[0,0,970,809]]},
+		{name:"end_atlas_13", frames: [[0,0,973,778],[975,0,973,778],[0,780,973,778],[975,780,973,778]]},
+		{name:"end_atlas_14", frames: [[0,0,973,778],[975,0,973,778],[0,780,973,778],[975,780,973,778]]},
+		{name:"end_atlas_15", frames: [[0,0,973,778],[975,0,973,778],[0,780,973,778],[975,780,973,778]]},
+		{name:"end_atlas_16", frames: [[0,0,973,778],[0,780,1616,301],[0,1083,1616,301],[0,1386,1616,301],[0,1689,1616,301]]},
+		{name:"end_atlas_17", frames: [[0,0,1616,301],[0,303,1616,301],[0,606,1616,301],[0,909,1616,301],[0,1212,1616,301],[0,1515,1616,301]]},
+		{name:"end_atlas_18", frames: [[0,0,1616,301],[0,303,1616,301],[0,606,1616,301],[0,909,1616,301],[0,1212,1616,301],[0,1515,1616,301]]},
+		{name:"end_atlas_19", frames: [[0,0,1616,301],[0,303,1616,301],[0,606,1616,301],[0,909,1616,301],[0,1212,1616,301],[0,1515,1616,301]]},
+		{name:"end_atlas_20", frames: [[0,0,1616,301],[0,303,1616,301],[0,606,1616,301],[0,909,1616,301],[0,1212,1616,301],[0,1515,1616,301]]},
+		{name:"end_atlas_21", frames: [[0,0,1616,301],[0,303,1616,301],[0,606,1616,301],[0,909,1616,301],[0,1212,1616,301],[0,1515,1616,301]]},
+		{name:"end_atlas_22", frames: [[0,1818,411,186],[1627,1747,375,190],[1522,303,375,190],[1618,0,375,190],[1522,495,375,190],[1522,687,375,190],[1522,879,375,190],[1522,1071,375,190],[1522,1263,375,190],[1663,1455,375,190],[1250,1747,375,196],[0,0,1616,301],[0,303,759,626],[761,303,759,626],[0,931,759,626],[761,931,759,626],[0,1559,597,257],[1250,1559,411,186],[981,1559,267,358],[599,1559,380,380]]},
+		{name:"end_atlas_23", frames: [[1508,192,374,186],[1508,380,374,186],[1508,568,374,186],[1508,756,374,186],[1508,944,374,186],[1508,1132,374,186],[1508,1320,374,186],[1508,1508,374,186],[1508,1696,374,186],[0,0,375,190],[0,192,375,190],[0,384,375,190],[0,576,375,190],[0,768,375,190],[0,960,375,190],[0,1152,375,190],[0,1344,375,190],[0,1536,375,190],[0,1728,375,190],[377,0,375,190],[377,192,375,190],[377,384,375,190],[377,576,375,190],[377,768,375,190],[377,960,375,190],[377,1152,375,190],[377,1344,375,190],[377,1536,375,190],[377,1728,375,190],[754,0,375,190],[754,192,375,190],[754,384,375,190],[754,576,375,190],[754,768,375,190],[754,960,375,190],[754,1152,375,190],[754,1344,375,190],[754,1536,375,190],[754,1728,375,190],[1131,0,375,190],[1131,192,375,190],[1131,384,375,190],[1131,576,375,190],[1131,768,375,190],[1131,960,375,190],[1131,1152,375,190],[1131,1344,375,190],[1131,1536,375,190],[1131,1728,375,190],[1508,0,375,190]]},
+		{name:"end_atlas_24", frames: [[1504,585,374,130],[1504,717,374,130],[1504,849,374,130],[1504,981,374,130],[1504,1113,374,130],[0,1880,374,130],[0,0,374,186],[0,188,374,186],[0,376,374,186],[0,564,374,186],[0,752,374,186],[0,940,374,186],[0,1128,374,186],[0,1316,374,186],[0,1504,374,186],[0,1692,374,186],[376,0,374,186],[376,188,374,186],[376,376,374,186],[376,564,374,186],[376,752,374,186],[376,940,374,186],[376,1128,374,186],[376,1316,374,186],[376,1504,374,186],[376,1692,374,186],[752,0,374,186],[752,188,374,186],[752,376,374,186],[752,564,374,186],[752,752,374,186],[752,940,374,186],[752,1128,374,186],[752,1316,374,186],[752,1504,374,186],[752,1692,374,186],[1128,0,374,186],[1128,188,374,186],[1128,376,374,186],[1128,564,374,186],[1128,752,374,186],[1128,940,374,186],[1128,1128,374,186],[376,1880,374,130],[752,1880,374,130],[1128,1910,374,130],[1128,1316,315,202],[1128,1520,315,193],[1445,1712,315,193],[1445,1316,320,196],[1445,1514,320,196],[1128,1715,315,193],[1504,0,315,193],[1504,195,315,193],[1504,390,315,193],[1767,1482,67,197],[1762,1712,229,254],[1767,1245,193,235]]}
 ];
 
 
@@ -165,1183 +165,1183 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_220 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_219 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_218 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_217 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_216 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_215 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_214 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_213 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_212 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_211 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_210 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_209 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_208 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_207 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_206 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_205 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_204 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_203 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_202 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_201 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_200 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_199 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_198 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_197 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_196 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_195 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_194 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_193 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_192 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_191 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_190 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_189 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_188 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_187 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_186 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_185 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_184 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_183 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_182 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_181 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_180 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_179 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_178 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_177 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_176 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_175 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_174 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_173 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_172 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_171 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_170 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_169 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_168 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_167 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_166 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_165 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_164 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_163 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_162 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_161 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_160 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_159 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_158 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_157 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_156 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_155 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_154 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_153 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_152 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_151 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_150 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_149 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_148 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_147 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_146 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_145 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_144 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_143 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_142 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_141 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_140 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_139 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_138 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_137 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_136 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_135 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_134 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_133 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_132 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_131 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_130 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_129 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_128 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_127 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_126 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_125 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_124 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_123 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_122 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_121 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_120 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_119 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_23"]);
+	this.initialize(ss["end_atlas_23"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_118 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_117 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_116 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_115 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_114 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_113 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_12"]);
+	this.initialize(ss["end_atlas_12"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_112 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_12"]);
+	this.initialize(ss["end_atlas_12"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_111 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_12"]);
+	this.initialize(ss["end_atlas_12"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_110 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_13"]);
+	this.initialize(ss["end_atlas_13"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_109 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_13"]);
+	this.initialize(ss["end_atlas_13"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_108 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_13"]);
+	this.initialize(ss["end_atlas_13"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_107 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_13"]);
+	this.initialize(ss["end_atlas_13"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_106 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_14"]);
+	this.initialize(ss["end_atlas_14"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_105 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_14"]);
+	this.initialize(ss["end_atlas_14"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_104 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_14"]);
+	this.initialize(ss["end_atlas_14"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_103 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_14"]);
+	this.initialize(ss["end_atlas_14"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_102 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_15"]);
+	this.initialize(ss["end_atlas_15"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_101 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_15"]);
+	this.initialize(ss["end_atlas_15"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_100 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_15"]);
+	this.initialize(ss["end_atlas_15"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_99 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_15"]);
+	this.initialize(ss["end_atlas_15"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_98 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_16"]);
+	this.initialize(ss["end_atlas_16"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_97 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_11"]);
+	this.initialize(ss["end_atlas_11"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_72 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_10"]);
+	this.initialize(ss["end_atlas_10"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_96 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_11"]);
+	this.initialize(ss["end_atlas_11"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_95 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_11"]);
+	this.initialize(ss["end_atlas_11"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_94 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_12"]);
+	this.initialize(ss["end_atlas_12"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_93 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_11"]);
+	this.initialize(ss["end_atlas_11"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_67 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_16"]);
+	this.initialize(ss["end_atlas_16"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_66 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_16"]);
+	this.initialize(ss["end_atlas_16"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_65 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_16"]);
+	this.initialize(ss["end_atlas_16"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_64 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_16"]);
+	this.initialize(ss["end_atlas_16"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_63 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_17"]);
+	this.initialize(ss["end_atlas_17"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_62 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_17"]);
+	this.initialize(ss["end_atlas_17"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_61 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_17"]);
+	this.initialize(ss["end_atlas_17"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_60 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_17"]);
+	this.initialize(ss["end_atlas_17"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_59 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_17"]);
+	this.initialize(ss["end_atlas_17"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_58 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_17"]);
+	this.initialize(ss["end_atlas_17"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_57 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_18"]);
+	this.initialize(ss["end_atlas_18"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_56 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_18"]);
+	this.initialize(ss["end_atlas_18"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_55 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_18"]);
+	this.initialize(ss["end_atlas_18"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_54 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_18"]);
+	this.initialize(ss["end_atlas_18"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_53 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_18"]);
+	this.initialize(ss["end_atlas_18"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_52 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_18"]);
+	this.initialize(ss["end_atlas_18"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_51 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_19"]);
+	this.initialize(ss["end_atlas_19"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_50 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_19"]);
+	this.initialize(ss["end_atlas_19"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_49 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_19"]);
+	this.initialize(ss["end_atlas_19"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_48 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_19"]);
+	this.initialize(ss["end_atlas_19"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_47 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_19"]);
+	this.initialize(ss["end_atlas_19"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_46 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_19"]);
+	this.initialize(ss["end_atlas_19"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_45 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_20"]);
+	this.initialize(ss["end_atlas_20"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_44 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_20"]);
+	this.initialize(ss["end_atlas_20"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_43 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_20"]);
+	this.initialize(ss["end_atlas_20"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_42 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_20"]);
+	this.initialize(ss["end_atlas_20"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_41 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_20"]);
+	this.initialize(ss["end_atlas_20"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_40 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_20"]);
+	this.initialize(ss["end_atlas_20"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_39 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_21"]);
+	this.initialize(ss["end_atlas_21"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_38 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_21"]);
+	this.initialize(ss["end_atlas_21"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_37 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_21"]);
+	this.initialize(ss["end_atlas_21"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_36 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_21"]);
+	this.initialize(ss["end_atlas_21"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_35 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_21"]);
+	this.initialize(ss["end_atlas_21"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_34 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_21"]);
+	this.initialize(ss["end_atlas_21"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_33 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_32 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_31 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_30 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_29 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_28 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
@@ -1354,7 +1354,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,5620,5641);
 
 
 (lib.CachedBmp_26 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_1"]);
+	this.initialize(ss["end_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -1367,175 +1367,175 @@ p.nominalBounds = new cjs.Rectangle(0,0,5620,5641);
 
 
 (lib.CachedBmp_24 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_1"]);
+	this.initialize(ss["end_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_23 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_4"]);
+	this.initialize(ss["end_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_22 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_21 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_5"]);
+	this.initialize(ss["end_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_20 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_19 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_6"]);
+	this.initialize(ss["end_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_18 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_221 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_24"]);
+(lib.CachedBmp_17 = function() {
+	this.initialize(ss["end_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_16 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_15 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_3"]);
+	this.initialize(ss["end_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_14 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_13 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_7"]);
+	this.initialize(ss["end_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_12 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_11 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_8"]);
+	this.initialize(ss["end_atlas_8"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_10 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_9"]);
+	this.initialize(ss["end_atlas_9"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_7 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_10"]);
+	this.initialize(ss["end_atlas_10"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_5 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(54);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_2"]);
+	this.initialize(ss["end_atlas_24"]);
 	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap11 = function() {
-	this.initialize(ss["אנימציה סופית_atlas_22"]);
+	this.initialize(ss["end_atlas_22"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -4216,7 +4216,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_5 = new lib.CachedBmp_14();
 	this.instance_5.setTransform(-189.3,85,0.4921,0.4921);
 
-	this.instance_6 = new lib.CachedBmp_221();
+	this.instance_6 = new lib.CachedBmp_17();
 	this.instance_6.setTransform(-328.25,-293.6,0.4921,0.4921);
 
 	this.instance_7 = new lib.CachedBmp_16();
@@ -4439,7 +4439,7 @@ if (reversed == null) { reversed = false; }
 
 
 // stage content:
-(lib.אנימציהסופית = function(mode,startPosition,loop,reversed) {
+(lib.end = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4704,38 +4704,38 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_27.png?1650819010764", id:"CachedBmp_27"},
-		{src:"images/CachedBmp_25.png?1650819010764", id:"CachedBmp_25"},
-		{src:"images/אנימציה סופית_atlas_1.png?1650819010417", id:"אנימציה סופית_atlas_1"},
-		{src:"images/אנימציה סופית_atlas_2.png?1650819010418", id:"אנימציה סופית_atlas_2"},
-		{src:"images/אנימציה סופית_atlas_3.png?1650819010418", id:"אנימציה סופית_atlas_3"},
-		{src:"images/אנימציה סופית_atlas_4.png?1650819010418", id:"אנימציה סופית_atlas_4"},
-		{src:"images/אנימציה סופית_atlas_5.png?1650819010418", id:"אנימציה סופית_atlas_5"},
-		{src:"images/אנימציה סופית_atlas_6.png?1650819010418", id:"אנימציה סופית_atlas_6"},
-		{src:"images/אנימציה סופית_atlas_7.png?1650819010419", id:"אנימציה סופית_atlas_7"},
-		{src:"images/אנימציה סופית_atlas_8.png?1650819010419", id:"אנימציה סופית_atlas_8"},
-		{src:"images/אנימציה סופית_atlas_9.png?1650819010419", id:"אנימציה סופית_atlas_9"},
-		{src:"images/אנימציה סופית_atlas_10.png?1650819010419", id:"אנימציה סופית_atlas_10"},
-		{src:"images/אנימציה סופית_atlas_11.png?1650819010419", id:"אנימציה סופית_atlas_11"},
-		{src:"images/אנימציה סופית_atlas_12.png?1650819010419", id:"אנימציה סופית_atlas_12"},
-		{src:"images/אנימציה סופית_atlas_13.png?1650819010420", id:"אנימציה סופית_atlas_13"},
-		{src:"images/אנימציה סופית_atlas_14.png?1650819010420", id:"אנימציה סופית_atlas_14"},
-		{src:"images/אנימציה סופית_atlas_15.png?1650819010420", id:"אנימציה סופית_atlas_15"},
-		{src:"images/אנימציה סופית_atlas_16.png?1650819010420", id:"אנימציה סופית_atlas_16"},
-		{src:"images/אנימציה סופית_atlas_17.png?1650819010421", id:"אנימציה סופית_atlas_17"},
-		{src:"images/אנימציה סופית_atlas_18.png?1650819010421", id:"אנימציה סופית_atlas_18"},
-		{src:"images/אנימציה סופית_atlas_19.png?1650819010421", id:"אנימציה סופית_atlas_19"},
-		{src:"images/אנימציה סופית_atlas_20.png?1650819010421", id:"אנימציה סופית_atlas_20"},
-		{src:"images/אנימציה סופית_atlas_21.png?1650819010422", id:"אנימציה סופית_atlas_21"},
-		{src:"images/אנימציה סופית_atlas_22.png?1650819010422", id:"אנימציה סופית_atlas_22"},
-		{src:"images/אנימציה סופית_atlas_23.png?1650819010423", id:"אנימציה סופית_atlas_23"},
-		{src:"images/אנימציה סופית_atlas_24.png?1650819010423", id:"אנימציה סופית_atlas_24"},
-		{src:"sounds/AcousticEchoes.mp3?1650819010764", id:"AcousticEchoes"},
-		{src:"sounds/CartoonEffectsBalloonFartSnore.mp3?1650819010764", id:"CartoonEffectsBalloonFartSnore"},
-		{src:"sounds/CrashesAluminumAndMetalRockingAndDroppingOnConcretemp3copy.mp3?1650819010764", id:"CrashesAluminumAndMetalRockingAndDroppingOnConcretemp3copy"},
-		{src:"sounds/FolkGarage.mp3?1650819010764", id:"FolkGarage"},
-		{src:"sounds/TechnologyElectronicButtonPushSoundSystem.mp3?1650819010764", id:"TechnologyElectronicButtonPushSoundSystem"},
-		{src:"sounds/נביחות_.mp3?1650819010764", id:"נביחות"}
+		{src:"images/CachedBmp_27.png?1650822257517", id:"CachedBmp_27"},
+		{src:"images/CachedBmp_25.png?1650822257517", id:"CachedBmp_25"},
+		{src:"images/end_atlas_1.png?1650822257209", id:"end_atlas_1"},
+		{src:"images/end_atlas_2.png?1650822257209", id:"end_atlas_2"},
+		{src:"images/end_atlas_3.png?1650822257209", id:"end_atlas_3"},
+		{src:"images/end_atlas_4.png?1650822257210", id:"end_atlas_4"},
+		{src:"images/end_atlas_5.png?1650822257210", id:"end_atlas_5"},
+		{src:"images/end_atlas_6.png?1650822257210", id:"end_atlas_6"},
+		{src:"images/end_atlas_7.png?1650822257210", id:"end_atlas_7"},
+		{src:"images/end_atlas_8.png?1650822257210", id:"end_atlas_8"},
+		{src:"images/end_atlas_9.png?1650822257211", id:"end_atlas_9"},
+		{src:"images/end_atlas_10.png?1650822257211", id:"end_atlas_10"},
+		{src:"images/end_atlas_11.png?1650822257211", id:"end_atlas_11"},
+		{src:"images/end_atlas_12.png?1650822257212", id:"end_atlas_12"},
+		{src:"images/end_atlas_13.png?1650822257212", id:"end_atlas_13"},
+		{src:"images/end_atlas_14.png?1650822257212", id:"end_atlas_14"},
+		{src:"images/end_atlas_15.png?1650822257213", id:"end_atlas_15"},
+		{src:"images/end_atlas_16.png?1650822257213", id:"end_atlas_16"},
+		{src:"images/end_atlas_17.png?1650822257213", id:"end_atlas_17"},
+		{src:"images/end_atlas_18.png?1650822257213", id:"end_atlas_18"},
+		{src:"images/end_atlas_19.png?1650822257214", id:"end_atlas_19"},
+		{src:"images/end_atlas_20.png?1650822257214", id:"end_atlas_20"},
+		{src:"images/end_atlas_21.png?1650822257214", id:"end_atlas_21"},
+		{src:"images/end_atlas_22.png?1650822257215", id:"end_atlas_22"},
+		{src:"images/end_atlas_23.png?1650822257216", id:"end_atlas_23"},
+		{src:"images/end_atlas_24.png?1650822257217", id:"end_atlas_24"},
+		{src:"sounds/AcousticEchoes.mp3?1650822257517", id:"AcousticEchoes"},
+		{src:"sounds/CartoonEffectsBalloonFartSnore.mp3?1650822257517", id:"CartoonEffectsBalloonFartSnore"},
+		{src:"sounds/CrashesAluminumAndMetalRockingAndDroppingOnConcretemp3copy.mp3?1650822257517", id:"CrashesAluminumAndMetalRockingAndDroppingOnConcretemp3copy"},
+		{src:"sounds/FolkGarage.mp3?1650822257517", id:"FolkGarage"},
+		{src:"sounds/TechnologyElectronicButtonPushSoundSystem.mp3?1650822257517", id:"TechnologyElectronicButtonPushSoundSystem"},
+		{src:"sounds/נביחות_.mp3?1650822257517", id:"נביחות"}
 	],
 	preloads: []
 };
